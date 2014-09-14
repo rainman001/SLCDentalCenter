@@ -17,7 +17,6 @@ body {
  
  .container {
 	width: 60%;
-	/*height: 200px; Will be commented out later */
 	margin-left: 20%;
 	margin-right: 20%;
 	background-color: white;
@@ -60,22 +59,11 @@ body {
  /* Change image widths to percentages to make it more scalable */
  .threeImages {
 	width: 90%;
-	clear: both;
 	margin-left: 5%;
-	margin-right: 5%;
  }
  
- #threePicsOne {
-	margin-right: 2.5%;
- }
- 
- #threePicsTwo {
-	margin-left: 2.5%;
-	margin-right: 2.5%;
- }
- 
- #threePicsThree {
-	margin-left: 2.5%;
+ #threePics {
+	margin-right: 1.25%;
  }
  
  .threeParagraphs p {
