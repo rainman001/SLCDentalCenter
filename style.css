@@ -7,33 +7,36 @@ body {
 	background-color: #0066CC;
 }
 
- header, footer {
+.mainHeader {
+	width: 100%;
 	font-size: 10px;
+	font-family: "Helvetica";
 	color: #fff;
 	text-align: center;
 	clear: both;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #00CCFF;
  }
  
- .container {
+  .container {
 	width: 60%;
 	margin-left: 20%;
-	margin-right: 20%;
 	background-color: white;
  }
  
- #logo {
+ .mainMenu {
+	display: flex;
+ }
+
+ .logo {
 	margin: 25px;
-	display: inline-block;
-	float: left;
  }
  
  .navMenu {
-	float: right;
-	display: inline-flex;
+	display: flex;
 	direction: row;
 	margin: 10px;
-	clear: right;
  }
  
  .navMenu p {
@@ -45,7 +48,6 @@ body {
  .mainSelector {
 	width: 90%;
 	max-width: 875px;
-	height: 360px;
 	margin: 0 auto;
 	clear: both;
 	padding-bottom: 50px;
@@ -56,19 +58,31 @@ body {
 	height: 100%;
  }
  
- /* Change image widths to percentages to make it more scalable */
- .threeImages {
+ .threeParagraphs {
 	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 	margin-left: 5%;
+	margin-right: 5%;
  }
  
- #threePics {
-	margin-right: 1.25%;
+ .innerContainer {
+	max-width: 275px;
  }
  
- .threeParagraphs p {
-	display: inline-block;
-	width: 275px;
-	margin: 5px;
-	font-size: 14px;
+ .staffInfo {
+	width: 90%;
+	max-width: 875px;
+	margin-left: 5%;
+	margin-right: 5%;
+ }
+ 
+ #staffImage {
+	width: 100%;
+ }
+ 
+ .infoVideo {
+	width: 90%;
+	margin: 0 5%;
  }
